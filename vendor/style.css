@@ -1,0 +1,401 @@
+@font-face {
+  font-family: mojfont;
+  src: url(font/HOLLYWOOD\ STARFIRE.ttf) format("truetype");
+}
+
+body {
+  font-family: mojfont;
+  background-color: #b9c0c1;
+  background-attachment: fixed;
+  font-size: 15px;
+
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+ 
+  
+
+}
+
+article {
+  padding-bottom: 0.5rem;
+}
+
+h1 {
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
+}
+
+nav ul {
+  text-align: center;
+  font-size: 18px;
+  list-style-type: none;
+  margin-left: -8px;
+  margin-right: -8px;
+  padding: 10px;
+  background-color: #22264b;
+  
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+nav a:hover {
+  background-color: blue;
+  color: black;
+}
+
+nav a:active {
+  background-color: #b56969;
+  color: black;
+}
+
+article a {
+  color: black;
+  text-decoration: none;
+
+}
+
+article a:hover {
+  color: blue;
+}
+
+article a:active {
+  color: white;
+}
+
+aside {
+  font-size: 18px;
+  font-weight: bold;
+  display: inline;
+  text-align: left;
+  margin-left: 17px;
+  margin-top: 8px;
+}
+
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  background-color: #22264b;
+  text-align: center;
+  color: white;
+  font-size: 11px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.nastred {
+  display: flex;
+  align-items: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+#omne {
+  background-color: #f0f0f4;
+  color: black;
+}
+
+#mojrozvrh {
+  width: auto;
+  overflow-x: auto;
+}
+
+table {
+  background-color: white;
+  border: 3px solid black;
+  text-align: center;
+  border-color: #22264b;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr,
+td,
+th {
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.deň {
+  font-weight: bold;
+  color: white;
+  background-color: #22264b;
+}
+
+.prednaska {
+  background-color: rgb(26, 158, 77);
+}
+
+.cvicenie {
+  background-color: rgb(73, 98, 144);
+}
+
+.telesna {
+  background-color: rgb(176, 64, 87);
+}
+
+#table-resume {
+  background-color: #fffefe;
+  border: 0px;
+}
+
+.no-border {
+  border: 0px;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 200px;
+}
+
+#omne {
+  background-color: blue;
+  color: black;
+}
+
+#rozvrh {
+  background-color: blue;
+  color: black;
+}
+
+#resume {
+  background-color: blue;
+  color: black;
+}
+
+#obrázok {
+  background-color: blue;
+  color: black;
+}
+
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+
+}
+
+
+
+#mojprofil {
+  margin-right: 14px;
+  margin-top: 7px;
+  float: left;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+.znacka-all {
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  right: 0;
+}
+
+.znacka-all:hover, .znacka-all:active {
+  opacity: 0.5;
+  transition: .5s ease;
+}
+ 
+.text-all {
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  right: 0;
+  opacity: 0;
+  border: solid 2px brown;
+  width: 170px;
+  text-align: left;
+  background-color: #b9c0c1;
+  padding: 3px;
+}
+
+
+/*Bratislava*/
+.znacka-1 {
+  left: -80%;
+  top: 61%;
+}
+
+.text-1 {
+  
+  left: -59%;
+  top: 37%;
+
+}
+
+.znacka-1:hover+.text-1 {
+  opacity: 1;
+  transition: .8s ease;
+}
+
+.map {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  position: relative;
+}
+
+
+/*Prešov*/
+.znacka-2 {
+  left: 46%;
+  top: 27%;
+}
+
+.text-2 {
+  left: 66%;
+  top: 7%;
+}
+
+.znacka-2:hover+.text-2 {
+  opacity: 1;
+  transition: .8s ease;
+}
+
+
+/*Nitra*/
+.znacka-3 {
+  left: -47%;
+  top: 54%;
+}
+
+.text-3 {
+  left: -25%;
+  top: 42%;
+}
+
+.znacka-3:hover+.text-3 {
+  opacity: 1;
+  transition: .8s ease;
+}
+
+
+/*Trnava*/
+.znacka-4 {
+  
+  left: -67%;
+  top: 51%;
+}
+
+.text-4 {
+  
+  left: -46%;
+  top: 27%;
+
+}
+
+.znacka-4:hover+.text-4 {
+  opacity: 1;
+  transition: .8s ease;
+}
+
+
+/*Banská Štiavnica*/
+.znacka-5 {
+  left: -20%;
+  top: 49%;
+}
+
+.text-5 {
+  left: 1%;
+  top: 36%;
+}
+
+.znacka-5:hover+.text-5 {
+  opacity: 1;
+  transition: .8s ease;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+
+.container{
+  position: relative;
+  margin: auto;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 600px;   
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0,0.1);
+}
+.container .left_side{
+  position: relative;
+  background: #1791ca;
+  padding: 40px;
+}
+.container .right_side{
+  position: relative;
+  background: white;
+  padding: 40px;
+}
+.profileText{
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.profileText .imgBx{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  
+}
+.profileText .imgBx img{
+  position: absolute;
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+  
+}
+
+.contactInfo ul li{
+  
+  list-style: none;
+  
+}
+
+
+
+.foto{
+  
+  width: 70%;
+  height: auto;
+  margin: auto;
+  position: relative;
+}
+
+.linky{
+  font-size: medium;
+  color: white;
+}
+
+
+
